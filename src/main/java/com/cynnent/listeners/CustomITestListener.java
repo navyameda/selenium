@@ -1,9 +1,5 @@
 package com.cynnent.listeners;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.ITestContext;
@@ -23,9 +19,7 @@ public class CustomITestListener implements ITestListener {
 	private static final Logger log = LogManager.getLogger(CustomITestListener.class);
 
 	private ExtentReports report;
-	// private ExtentTest test;
-	// ThreadLocal<ExtentTest> extent = new ThreadLocal<ExtentTest>();
-
+	
 	@Override
 	public void onStart(ITestContext context) {
 		log.info("*** Test Suite {} started ***", context.getName());
@@ -40,22 +34,6 @@ public class CustomITestListener implements ITestListener {
 		}
 	}
 
-	// @Override
-	/*
-	 * public void onTestStart(ITestResult result) {
-	 * log.info("*** Running Test Case - {} ...", result.getTestClass().getName());
-	 * log.info("*** Running Test - {}...", result.getMethod().getMethodName());
-	 * 
-	 * 
-	 * String browsername =
-	 * result.getTestContext().getCurrentXmlTest().getParameter("browser"); String
-	 * testdescription = result.getMethod().getDescription(); test =
-	 * report.createTest(result.getMethod().getMethodName() + "_" + browsername,
-	 * testdescription); test.assignCategory(result.getMethod().getMethodName());
-	 * ExtentFactory.getInstance().setExtent(test); TestNGUtils.setExtentTest(test);
-	 * // System.out.println("CustomItestlistener : "+ExtentFactory.getInstance().
-	 * getExtent()); }
-	 */
 	@Override
 	public void onTestStart(ITestResult result) {
 		log.info("*** Running Test Case - {} ...", result.getTestClass().getName());
@@ -105,48 +83,13 @@ public class CustomITestListener implements ITestListener {
 	}
 
 	
-	  @Override public void onFinish(ITestContext context) { 
-		  report.flush();
-		  log.info("*** Test Suite " + context.getName() + " finished ***");
-	  
-			/*
-			 * SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss"); Date
-			 * date = new Date(); String actualDate = format.format(date); String
-			 * reportFilePath = System.getProperty("user.dir") + "/Reports/ExecutionReport_"
-			 * + actualDate + ".html";
-			 */
-	  //String reportFilePath ="C:\\Users\\Sai Krishna M\\Downloads\\OneDrive_2023-06-21\\WebTesting_Framework - Copy\\test-output\\emailable-report.html"
-	  ; //String reportFilePath = System.getProperty("user.dir") + File.separator "emailable-report.html"; 
-	  //String reportFilePath = System.getProperty("user.dir")+ "/test-output/emailable-report.html"; 
-	 // String reportFilePath = System.getProperty("user.dir") +"/Reports/ExecutionReport.html"; 
-	  SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss");
-      Date date = new Date();
-      String actualDate = format.format(date);
-	   String reportPath = System.getProperty("user.dir") +
-               "/Reports/ExecutionReport_" + actualDate + ".html";
-	  EmailSender.sendEmailReport(reportPath);
+	@Override 
+	public void onFinish(ITestContext context){
+		report.flush();
+		log.info("*** Test Suite " + context.getName() + " finished ***");
+		EmailSender.sendEmailReport(ExtentReport.getReportPath());
 	  }
 	 
 
 	// Other methods are left as it is
-	/*
-	 * @Override public void onFinish(ITestContext context) { report.flush();
-	 * log.info("*** Test Suite " + context.getName() + " finished ***");
-	 * 
-	 * SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy HH-mm-ss"); Date
-	 * date = new Date(); String actualDate = format.format(date); String
-	 * reportFilePath = System.getProperty("user.dir") + "/Reports/ExecutionReport_"
-	 * + actualDate + ".html";
-	 * 
-	 * // Rename the report file to include the current date File oldFile = new
-	 * File(System.getProperty("user.dir") + "/Reports/ExecutionReport.html"); File
-	 * newFile = new File(reportFilePath); boolean fileRenamed =
-	 * oldFile.renameTo(newFile);
-	 * 
-	 * if (fileRenamed) { log.info("Extent report file renamed successfully."); }
-	 * else { log.warn("Failed to rename extent report file."); }
-	 * 
-	 * EmailSender.sendEmailReport(reportFilePath); }
-	 */
-
 }

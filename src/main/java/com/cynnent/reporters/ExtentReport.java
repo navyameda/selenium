@@ -13,6 +13,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ExtentReport {
     private static ExtentReports extent;
     private static Logger log = LogManager.getLogger(ExtentReport.class);
+    private static String reportPath;
 
     public static ExtentReports getInstance() {
         if (extent == null) {
@@ -26,7 +27,7 @@ public class ExtentReport {
         Date date = new Date();
         String actualDate = format.format(date);
 
-        String reportPath = System.getProperty("user.dir") + "/Reports/ExecutionReport_" + actualDate + ".html";
+        reportPath = System.getProperty("user.dir") + "/Reports/ExecutionReport_" + actualDate + ".html";
         log.info("Creating ExtentReports instance with report path: {}", reportPath);
 
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportPath);
@@ -39,6 +40,10 @@ public class ExtentReport {
 
         log.info("ExtentReports instance created successfully");
         return extent;
+    }
+    
+    public static String getReportPath() {
+        return reportPath;
     }
 
     public static void flushReport() {

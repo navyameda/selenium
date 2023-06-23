@@ -1,15 +1,23 @@
 package com.cynnent.emailReport;
 
-import com.cynnent.utils.ConfigReader;
-import com.cynnent.utils.Constants;
+import java.util.Properties;
 
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
-import javax.mail.*;
-import javax.mail.internet.*;
-import java.io.File;
-import java.util.Properties;
+import javax.mail.Authenticator;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
+
+import com.cynnent.utils.ConfigReader;
+import com.cynnent.utils.Constants;
 
 public class EmailSender {
     private static final String EMAIL_PROPERTIES_FILE = "email.properties";

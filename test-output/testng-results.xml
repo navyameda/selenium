@@ -1,9 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-23T10:41:16 IST" name="NumberCheck" finished-at="2023-06-23T10:41:16 IST" duration-ms="0">
+  <suite started-at="2023-06-23T16:06:35 IST" name="NumberCheck" finished-at="2023-06-23T16:07:04 IST" duration-ms="29944">
     <groups>
     </groups>
+    <test started-at="2023-06-23T16:06:35 IST" name="FunctionalTest_edge" finished-at="2023-06-23T16:06:56 IST" duration-ms="21469">
+      <class name="com.numeracle.tests.NumberCheckTest">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.numeracle.tests.NumberCheckTest@631e06ab]" started-at="2023-06-23T16:06:34 IST" name="beforeSuite" finished-at="2023-06-23T16:06:35 IST" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72e34f77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.numeracle.tests.NumberCheckTest@631e06ab]" started-at="2023-06-23T16:06:35 IST" name="setUp" finished-at="2023-06-23T16:06:39 IST" duration-ms="3785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72e34f77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:1, instance:com.numeracle.tests.NumberCheckTest@631e06ab]" started-at="2023-06-23T16:06:39 IST" name="testLogin" description="Numeracle Login Valid credentials" finished-at="2023-06-23T16:06:53 IST" duration-ms="14339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.numeracle.tests.NumberCheckTest@631e06ab]" started-at="2023-06-23T16:06:53 IST" name="tearDown" finished-at="2023-06-23T16:06:53 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.numeracle.tests.NumberCheckTest@631e06ab]" started-at="2023-06-23T16:06:53 IST" name="setUp" finished-at="2023-06-23T16:06:56 IST" duration-ms="2236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@72e34f77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testhome()[pri:2, instance:com.numeracle.tests.NumberCheckTest@631e06ab]" started-at="2023-06-23T16:06:56 IST" name="testhome" description="Numeracle Landing page" finished-at="2023-06-23T16:06:56 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.numeracle.tests.NumberCheckTest@631e06ab]" started-at="2023-06-23T16:06:56 IST" name="tearDown" finished-at="2023-06-23T16:06:56 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.numeracle.tests.NumberCheckTest@631e06ab]" started-at="2023-06-23T16:07:06 IST" name="afterSuite" finished-at="2023-06-23T16:07:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.numeracle.tests.NumberCheckTest -->
+    </test> <!-- FunctionalTest_edge -->
+    <test started-at="2023-06-23T16:06:35 IST" name="FunctionalTest_chrome" finished-at="2023-06-23T16:07:04 IST" duration-ms="29944">
+      <class name="com.numeracle.tests.NumberCheckTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.numeracle.tests.NumberCheckTest@58bf8650]" started-at="2023-06-23T16:06:35 IST" name="setUp" finished-at="2023-06-23T16:06:39 IST" duration-ms="3785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77307458]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:1, instance:com.numeracle.tests.NumberCheckTest@58bf8650]" started-at="2023-06-23T16:06:39 IST" name="testLogin" description="Numeracle Login Valid credentials" finished-at="2023-06-23T16:07:02 IST" duration-ms="23558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.numeracle.tests.NumberCheckTest@58bf8650]" started-at="2023-06-23T16:07:02 IST" name="tearDown" finished-at="2023-06-23T16:07:03 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.numeracle.tests.NumberCheckTest@58bf8650]" started-at="2023-06-23T16:07:03 IST" name="setUp" finished-at="2023-06-23T16:07:04 IST" duration-ms="1449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77307458]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testhome()[pri:2, instance:com.numeracle.tests.NumberCheckTest@58bf8650]" started-at="2023-06-23T16:07:04 IST" name="testhome" description="Numeracle Landing page" finished-at="2023-06-23T16:07:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.numeracle.tests.NumberCheckTest@58bf8650]" started-at="2023-06-23T16:07:04 IST" name="tearDown" finished-at="2023-06-23T16:07:04 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.numeracle.tests.NumberCheckTest -->
+    </test> <!-- FunctionalTest_chrome -->
   </suite> <!-- NumberCheck -->
 </testng-results>

@@ -13591,3 +13591,532 @@ User Login Successful
 [10:46:32.630] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
 [10:46:32.863] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
 [10:46:32.935] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome finished ***
+[14:08:47.842] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 1
+[14:08:47.853] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge started ***
+[14:08:47.854] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome started ***
+[14:08:47.855] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[14:08:47.855] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[14:08:47.882] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 14-08-47.html
+[14:08:47.882] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 14-08-47.html
+[14:08:48.158] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[14:08:48.158] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[14:08:48.159] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 24
+[14:08:48.159] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 23
+[14:08:48.159] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 24
+[14:08:48.159] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 23
+[14:08:48.216] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[14:08:48.216] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[14:08:53.346] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (e770f5b0776b22ca6fe7d9bc6b4af68a)
+[14:08:53.370] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:08:53.370] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[14:08:53.565] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (4c2b30f0aaf1dea5c82e2e4dd14103f0)
+[14:08:53.569] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:08:53.569] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[14:09:06.500] [ChromeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[14:09:06.500] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[14:09:06.723] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[14:09:06.724] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[14:09:06.797] [EdgeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[14:09:06.797] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[14:09:06.913] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[14:09:06.913] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[14:09:06.975] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[14:09:06.976] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[14:09:07.179] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[14:09:07.179] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[14:09:07.686] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[14:09:07.686] [ChromeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[14:09:07.687] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:09:07.692] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:09:07.692] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[14:09:08.146] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:09:08.153] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[14:09:08.504] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[14:09:08.505] [EdgeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[14:09:08.505] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:09:08.508] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:09:08.508] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[14:09:08.884] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:09:08.886] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[14:09:09.830] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (956be35a413ff5274bd6eec9f0dd486c)
+[14:09:09.841] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:09:09.841] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[14:09:09.843] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:09:09.859] [ChromeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[14:09:09.863] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:09:09.863] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[14:09:10.265] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:09:11.481] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome finished ***
+[14:09:12.163] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (4ade368d9a86ff8491488ab27ffc1f27)
+[14:09:12.167] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:09:12.167] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[14:09:12.168] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:09:12.168] [EdgeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[14:09:12.170] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:09:12.170] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[14:09:12.586] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:09:12.640] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge finished ***
+[14:14:44.746] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 1
+[14:14:44.755] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge started ***
+[14:14:44.756] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome started ***
+[14:14:44.756] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[14:14:44.756] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[14:14:44.780] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 14-14-44.html
+[14:14:44.780] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 14-14-44.html
+[14:14:45.062] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[14:14:45.062] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[14:14:45.062] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 24
+[14:14:45.062] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 23
+[14:14:45.062] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 24
+[14:14:45.062] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 23
+[14:14:45.092] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[14:14:45.093] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[14:14:49.169] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (60f2e11cc3d416fdaea67ae2464f45ff)
+[14:14:49.187] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:14:49.187] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[14:14:49.296] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (ad8e09ba96a14373423aefd1700fd3e0)
+[14:14:49.299] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:14:49.300] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[14:14:53.182] [ChromeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[14:14:53.183] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[14:14:53.323] [EdgeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[14:14:53.323] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[14:14:53.403] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[14:14:53.403] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[14:14:53.522] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[14:14:53.522] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[14:14:53.626] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[14:14:53.626] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[14:14:53.726] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[14:14:53.726] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[14:14:54.404] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Element text: ERROR!
+[object Object]
+[14:14:54.405] [ChromeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: ERROR!
+[object Object]
+[14:14:54.405] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: ERROR!
+[object Object]]
+[14:14:54.414] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:14:54.414] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[14:14:54.477] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[14:14:54.478] [EdgeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[14:14:54.479] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:14:54.487] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:14:54.488] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[14:14:54.928] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:14:54.933] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[14:14:55.052] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:14:55.056] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[14:14:56.982] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (5e14bcd1be1c9e14c6bcb6e5ce9e3340)
+[14:14:56.986] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:14:56.986] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[14:14:56.987] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: ERROR!
+[object Object]]
+[14:14:56.997] [ChromeDriver] ERROR com.cynnent.utils.TestNGUtils - Assertion failed: ERROR!
+[object Object] is not equal to SUCCESS!
+User Login Successful
+java.lang.AssertionError: String Match expected [SUCCESS!
+User Login Successful] but found [ERROR!
+[object Object]]
+	at org.testng.Assert.fail(Assert.java:99) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1037) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.assertEquals(Assert.java:122) ~[testng-7.4.0.jar:7.4.0]
+	at com.cynnent.utils.TestNGUtils.assertEquals(TestNGUtils.java:39) ~[classes/:?]
+	at com.numeracle.tests.NumberCheckTest.testhome(NumberCheckTest.java:41) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[14:14:57.041] [ChromeDriver] ERROR com.cynnent.listeners.CustomITestListener - Test Case Failed: Numeracle Landing page
+java.lang.AssertionError: String Match expected [SUCCESS!
+User Login Successful] but found [ERROR!
+[object Object]]
+	at org.testng.Assert.fail(Assert.java:99) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1037) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.Assert.assertEquals(Assert.java:122) ~[testng-7.4.0.jar:7.4.0]
+	at com.cynnent.utils.TestNGUtils.assertEquals(TestNGUtils.java:39) ~[classes/:?]
+	at com.numeracle.tests.NumberCheckTest.testhome(NumberCheckTest.java:41) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[14:14:57.397] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (fccfde4b4abc47d7621e0d290b4eba0b)
+[14:14:57.401] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:14:57.402] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[14:14:57.403] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:14:57.404] [EdgeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[14:14:57.406] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:14:57.406] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[14:14:57.666] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:14:57.803] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:14:58.207] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge finished ***
+[14:14:58.208] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome finished ***
+[14:23:07.746] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 1
+[14:23:07.757] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge started ***
+[14:23:07.758] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome started ***
+[14:23:07.758] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[14:23:07.759] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[14:23:07.782] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 14-23-07.html
+[14:23:07.782] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 14-23-07.html
+[14:23:08.059] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[14:23:08.059] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[14:23:08.059] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 23
+[14:23:08.059] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 24
+[14:23:08.059] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 24
+[14:23:08.059] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 23
+[14:23:08.105] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[14:23:08.106] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[14:23:12.129] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (797ad4d08062a969e88b660b72fd3025)
+[14:23:12.159] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:23:12.159] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[14:23:12.359] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (8346720a21d0d57b33690ee00d26208c)
+[14:23:12.367] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:23:12.367] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[14:23:16.121] [ChromeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[14:23:16.121] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[14:23:16.351] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[14:23:16.352] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[14:23:16.557] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[14:23:16.557] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[14:23:16.669] [EdgeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[14:23:16.670] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[14:23:16.822] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[14:23:16.822] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[14:23:16.999] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[14:23:16.999] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[14:23:17.249] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[14:23:17.249] [ChromeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[14:23:17.249] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:23:17.254] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:23:17.255] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[14:23:17.555] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:23:17.563] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[14:23:17.665] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[14:23:17.665] [EdgeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[14:23:17.666] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:23:17.669] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:23:17.669] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[14:23:18.135] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:23:18.137] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[14:23:19.319] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (124e43714e0b38ccb25f903620449ff3)
+[14:23:19.321] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:23:19.322] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[14:23:19.323] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:23:19.330] [ChromeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[14:23:19.333] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:23:19.334] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[14:23:20.323] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:23:20.532] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (ed2e002f5745fbd8b81e1bde5b9cd912)
+[14:23:20.534] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:23:20.535] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[14:23:20.536] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[14:23:20.536] [EdgeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[14:23:20.539] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[14:23:20.541] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[14:23:20.940] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[14:23:21.251] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge finished ***
+[14:23:21.253] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome finished ***
+[15:33:08.948] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 1
+[15:33:08.956] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome started ***
+[15:33:08.957] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge started ***
+[15:33:08.957] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[15:33:08.957] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[15:33:09.215] [] INFO  com.cynnent.reporters.ExtentReport - Extent report setup completed.
+[15:33:09.215] [] INFO  com.cynnent.reporters.ExtentReport - Extent report setup completed.
+[15:33:09.215] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 21
+[15:33:09.215] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 20
+[15:33:09.215] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 21
+[15:33:09.215] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 20
+[15:33:09.245] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[15:33:09.245] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[15:33:13.012] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (beb437727cebb0044151f5f0baa3b83c)
+[15:33:13.032] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:33:13.032] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[15:33:13.115] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (d5fb7e4021f42e6527560f7392153d2b)
+[15:33:13.118] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:33:13.118] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[15:33:19.596] [EdgeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[15:33:19.596] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[15:33:19.802] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[15:33:19.803] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[15:33:20.058] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[15:33:20.059] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[15:33:20.641] [ChromeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[15:33:20.642] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[15:33:20.738] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[15:33:20.739] [EdgeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[15:33:20.739] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[15:33:20.743] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:33:20.743] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[15:33:20.926] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[15:33:20.926] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[15:33:21.017] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[15:33:21.023] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[15:33:21.126] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[15:33:21.126] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[15:33:22.600] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (4916bad917950022134e3f3bdfd4c9c2)
+[15:33:22.605] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:33:22.607] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[15:33:22.608] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[15:33:22.613] [EdgeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[15:33:22.618] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:33:22.621] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[15:33:22.919] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[15:33:22.919] [ChromeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[15:33:22.919] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[15:33:22.921] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:33:22.921] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[15:33:22.963] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[15:33:23.163] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[15:33:23.164] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[15:33:23.594] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge finished ***
+[15:33:24.654] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (a0fda4617f0623040bccfd9b19719210)
+[15:33:24.656] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:33:24.656] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[15:33:24.656] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[15:33:24.657] [ChromeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[15:33:24.658] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:33:24.658] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[15:33:24.944] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[15:33:25.011] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome finished ***
+[15:33:27.736] [] INFO  com.cynnent.framework.TestContextManager - TestContext removed for thread: 1
+[15:33:27.736] [] INFO  com.cynnent.framework.TestBase - Test suite execution completed.
+[15:55:22.312] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 1
+[15:55:22.319] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge started ***
+[15:55:22.320] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome started ***
+[15:55:22.321] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[15:55:22.321] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[15:55:22.343] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 15-55-22.html
+[15:55:22.343] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 15-55-22.html
+[15:55:22.581] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[15:55:22.581] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[15:55:22.581] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 21
+[15:55:22.581] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 22
+[15:55:22.581] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 22
+[15:55:22.581] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 21
+[15:55:22.608] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[15:55:22.608] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[15:55:25.629] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (807b35305d4f51c7bf8b96fbf6a93623)
+[15:55:25.644] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:55:25.645] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[15:55:25.770] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (fd320757bfff0a592abf0ef5b5d51a7f)
+[15:55:25.774] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:55:25.774] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[15:55:37.210] [EdgeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[15:55:37.210] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[15:55:37.470] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[15:55:37.471] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[15:55:37.722] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[15:55:37.722] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[15:55:38.478] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[15:55:38.479] [EdgeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[15:55:38.479] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[15:55:38.484] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:55:38.485] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[15:55:38.737] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[15:55:38.742] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[15:55:38.902] [ChromeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[15:55:38.902] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[15:55:39.090] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[15:55:39.091] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[15:55:39.312] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[15:55:39.313] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[15:55:40.159] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (d3a70cfa2eacfa2ae016dbaab52006bf)
+[15:55:40.162] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:55:40.162] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[15:55:40.163] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[15:55:40.167] [EdgeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[15:55:40.170] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:55:40.171] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[15:55:40.427] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[15:55:40.534] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[15:55:40.534] [ChromeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[15:55:40.534] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[15:55:40.538] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:55:40.539] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[15:55:40.814] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[15:55:40.816] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[15:55:41.066] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge finished ***
+[15:55:41.978] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (812b139e2e91d136628b9409c7be2e31)
+[15:55:41.979] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:55:41.979] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[15:55:41.980] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[15:55:41.980] [ChromeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[15:55:41.981] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[15:55:41.981] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[15:55:42.163] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[15:55:42.243] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome finished ***
+[15:55:44.093] [] INFO  com.cynnent.framework.TestContextManager - TestContext removed for thread: 1
+[15:55:44.093] [] INFO  com.cynnent.framework.TestBase - Test suite execution completed.
+[16:06:35.001] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 1
+[16:06:35.010] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge started ***
+[16:06:35.011] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome started ***
+[16:06:35.012] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[16:06:35.012] [] INFO  com.cynnent.listeners.CustomITestListener - Initializing ExtentReports instance...
+[16:06:35.038] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 16-06-35.html
+[16:06:35.038] [] INFO  com.cynnent.reporters.ExtentReport - Creating ExtentReports instance with report path: C:\Users\Sai Krishna M\Downloads\OneDrive_2023-06-21\WebTesting_Framework - Copy/Reports/ExecutionReport_23-06-2023 16-06-35.html
+[16:06:35.407] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[16:06:35.407] [] INFO  com.cynnent.reporters.ExtentReport - ExtentReports instance created successfully
+[16:06:35.407] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 20
+[16:06:35.407] [] INFO  com.cynnent.framework.TestContextManager - TestContext set for thread: 21
+[16:06:35.407] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 20
+[16:06:35.407] [] INFO  com.cynnent.listeners.CustomITestListener - TestContext set for thread: 21
+[16:06:35.443] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[16:06:35.444] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[16:06:39.216] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (c5f25ec958f83d1e773dc17cde2eeb4c)
+[16:06:39.226] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (03f61cccab8b870ecf77ec46fa67c912)
+[16:06:39.245] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[16:06:39.245] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[16:06:39.247] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[16:06:39.248] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testLogin...
+[16:06:51.099] [EdgeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[16:06:51.100] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[16:06:51.530] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[16:06:51.530] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[16:06:51.944] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[16:06:51.944] [EdgeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[16:06:53.565] [EdgeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[16:06:53.566] [EdgeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[16:06:53.566] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[16:06:53.575] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[16:06:53.576] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[16:06:53.936] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[16:06:53.951] [] INFO  com.cynnent.driverfactory.EdgeDriverFactory - Setting up EdgeDriver...
+[16:06:56.185] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: EdgeDriver: msedge on WINDOWS (2d4aa6f3c41566fd8fe600cb93227f0a)
+[16:06:56.189] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[16:06:56.190] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[16:06:56.192] [EdgeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[16:06:56.201] [EdgeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[16:06:56.203] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[16:06:56.204] [EdgeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[16:06:56.473] [EdgeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[16:06:57.775] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_edge finished ***
+[16:07:00.156] [ChromeDriver] INFO  com.cynnent.pages.BasePage - portal_admin@numeracle.com entered in Username Field Input
+[16:07:00.157] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered username: portal_admin@numeracle.com
+[16:07:00.524] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Admin@333 entered in Password Field Input
+[16:07:00.524] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Entered password
+[16:07:00.887] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Clicked on Login Button Button
+[16:07:00.887] [ChromeDriver] INFO  com.numeracle.pages.LoginPage - Clicked login button
+[16:07:02.784] [ChromeDriver] INFO  com.cynnent.pages.BasePage - Element text: SUCCESS!
+User Login Successful
+[16:07:02.785] [ChromeDriver] INFO  com.numeracle.pages.HomePage - Retrieved login confirmation message: SUCCESS!
+User Login Successful
+[16:07:02.785] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value set: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[16:07:02.788] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[16:07:02.789] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testLogin Passed...
+[16:07:03.214] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[16:07:03.218] [] INFO  com.cynnent.driverfactory.ChromeDriverFactory - Setting up ChromeDriver...
+[16:07:04.665] [] INFO  com.cynnent.framework.TestBase - WebDriver initialized for browser: ChromeDriver: chrome on WINDOWS (82ee42d81da5a77defd1f94ace1f09f8)
+[16:07:04.668] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test Case - com.numeracle.tests.NumberCheckTest ...
+[16:07:04.668] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Running Test - testhome...
+[16:07:04.669] [ChromeDriver] INFO  com.cynnent.framework.TestContextManager - Runtime value retrieved: [Key: welcomeMessage, Value: SUCCESS!
+User Login Successful]
+[16:07:04.669] [ChromeDriver] INFO  com.cynnent.utils.TestNGUtils - Assertion passed: SUCCESS!
+User Login Successful is equal to SUCCESS!
+User Login Successful
+[16:07:04.673] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test Case - com.numeracle.tests.NumberCheckTest ...
+[16:07:04.674] [ChromeDriver] INFO  com.cynnent.listeners.CustomITestListener - *** Executed Test - testhome Passed...
+[16:07:04.952] [ChromeDriver] INFO  com.cynnent.framework.TestBase - WebDriver instance quit.
+[16:07:05.027] [] INFO  com.cynnent.listeners.CustomITestListener - *** Test Suite FunctionalTest_chrome finished ***
+[16:07:06.244] [] INFO  com.cynnent.framework.TestContextManager - TestContext removed for thread: 1
+[16:07:06.245] [] INFO  com.cynnent.framework.TestBase - Test suite execution completed.
